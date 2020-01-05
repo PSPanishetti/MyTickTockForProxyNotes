@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Simple Text"
+        android:textSize="@dimen/mediumTextSize"
+        android:gravity="center"
+        android:id="@+id/themeText"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/circular_border"
+        android:padding="@dimen/mediumPaddingMargin"
+        android:layout_margin="@dimen/mediumPaddingMargin"
+        android:text="Switch Theme"
+        android:onClick="ToggleTheme"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/circular_border"
+        android:padding="@dimen/smallPaddingMargin"
+        android:layout_margin="@dimen/mediumPaddingMargin"
+        android:text="Read About Me "
+        android:onClick="ReadAboutMe"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

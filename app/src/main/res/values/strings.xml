@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Tick Tock</string>
+    <string name="sampleUserName">Robert Potter</string>
+    <string name="activeSince">active from 6 months</string>
+    <string name="followers">Followers</string>
+    <string name="sampleNumber">255</string>
+    <string name="videos">Videos</string>
+    <string name="views">Views</string>
+    <string name="about_me_text">Respected ProxyNotes HR, If you are reading this first I thank you. Because you shown your interest in knowing about me What I have done, my past works are already written in the resume you have gone through that already. But I will tell you something that resume will not tell you. Just being honest with you</string>
+    <string name="about_me_text_two"> I am good at searching stack overflow. I know what to copy when I do not know the tech or idea I am working with. I pick the best and necessary from it. And I also know how to go through documentation. If you hire me  I can do what you want me to do with best possible way. And Not every time I use StackOverflow I use my mind also </string>
+    <string name="about_me_text_three">Coming to this internship I am genuinely rejecting even if you are selecting me. because I have classes going on and I am also working on my own website(www.codeworld.in) and some other websites also. But I appreciate your chance for me and respect you. But if you still want to hire me I have an offer for you.</string>
+    <string name="offer">I do not want to take this as internship rather I want to take it as freelance project. Tell me the projects you want me to make And give me the time. I will make those apps and give you. And assign the money to those project by yourself. I want this because I do not want to be bounded by time. I will be updating you status two days once or I will contact you if I have doubts but give me deadline I will finish it by that </string>
+    <string name="conclusion">Conclusion : I made this because it was something that I never made. Thanks for this challenge. I Enjoyed it and learnt some things also. If you are interested let me know. You can mail me praveenpanishetti@gmail.com or you can directly call me or whatsapp me at 9620876243 That was all about my secret..  Thank You And How was the app? Please share your thoughts with me at my mail or internshala chat.    - With Regards, Praveen Panishetti  </string>
+</resources>

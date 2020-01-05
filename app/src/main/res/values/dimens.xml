@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smallTextSize">16sp</dimen>
+    <dimen name="smallPaddingMargin">8dp</dimen>
+    <dimen name="mediumTextSize">25sp</dimen>
+    <dimen name="mediumPaddingMargin">16dp</dimen>
+    <dimen name="profileNameTextSize">30sp</dimen>
+    <dimen name="userProfileScreenIcon">60dp</dimen>
+</resources>

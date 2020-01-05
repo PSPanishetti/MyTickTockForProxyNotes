@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:id="@+id/video_view"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="150dp"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/mediumPaddingMargin"
+                android:background="@drawable/circular_border"
+                android:tint="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_favorite_black_24dp"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circular_border"
+                android:tint="@android:color/white"
+                android:padding="@dimen/mediumPaddingMargin"
+                android:src="@drawable/ic_share_black_24dp"/>
+
+
+        </LinearLayout>
+
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="70dp"
+            android:id="@+id/container"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/currentVideoName"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/video_name_gradient"
+                android:gravity="center"
+                android:padding="@dimen/smallPaddingMargin"
+                android:text="Some Text"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/mediumTextSize"
+                android:textStyle="bold" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/smallPaddingMargin"
+            android:background="@drawable/gradient_bottom_nav"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circular_border"
+                android:tint="@android:color/white"
+                android:id="@+id/profileImg"
+                android:src="@drawable/ic_launcher_foreground"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/mediumTextSize"
+                android:text="Robert Potter "
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/profileImg"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_centerVertical="true"
+                android:id="@+id/profileText"
+                android:layout_marginStart="@dimen/mediumPaddingMargin"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/mediumPaddingMargin"
+                android:layout_centerVertical="true"
+                android:id="@+id/settings"
+                android:background="@drawable/circular_border"
+                android:tint="@android:color/white"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_settings_black_24dp"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
